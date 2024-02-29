@@ -1,16 +1,23 @@
 {
     "manifest_version": 3,
-    "name": "Curato Util",
+    "name": "Cuprum",
     "description": "Base Level Extension",
     "version": "1.0",
+    "action": {
+      "default_icon": "favicon.png"
+    },
     "content_scripts": [
         {
           "js": ["scripts/content.js"],
           "matches": [
-            "https://curato.ep.springtools.de/bild/page/jJt31TLVzDZzInKWHyk1",
-            "https://curato.ep.springtools.de/bild/page/02eJDc3oTauF2gyoG8tc",
-            "https://curato.ep.springtools.de/bild/page/wDmWJyqHFeqhJHmeuqfN",
-            "https://curato.ep.springtools.de/bild/page/jJt31TLVzDZzInKWHyk1"
+            "https://curato.ep.springtools.de/bild/page/wDmWJyqHFeqhJHmeuqfN"
+          ]
+        },
+        {
+          "js": ["scripts/shortcuts.js"],
+          "matches": [
+            "https://curato.ep.springtools.de/bild/page/*"
+
           ]
         }
       ]

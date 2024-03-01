@@ -1,6 +1,6 @@
 let styles = `
     #overallDiv { 
-        height: 55px;
+        height: 45px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -8,13 +8,13 @@ let styles = `
         margin-top: 12px;
     }
     #navBtn{
-        height: 45px;
+        height: 38px;
         margin-right: 7px;
         margin-left: 7px;
         margin-top: 5px;
         margin-bottom: 5px;
         padding: 5px;
-        font-size: 30px;
+        font-size: 20px;
         color: #1E94BF;
         background-color: #ffffff;
         border-color: #1E94BF;
@@ -165,60 +165,6 @@ async function addNav() {
 
     geldBtn.addEventListener("click", () => {
         geldBlock.scrollIntoView(true);
-    })
-
-    const digitalBtn = document.createElement("button");
-    digitalBtn.setAttribute("id", "navBtn");
-    digitalBtn.innerHTML = "Digital";
-    overallDiv.appendChild(digitalBtn);
-
-    digitalBtn.addEventListener("click", () => {
-        digitalBlock.scrollIntoView(true);
-    })
-
-    const ratgeberBtn = document.createElement("button");
-    ratgeberBtn.setAttribute("id", "navBtn");
-    ratgeberBtn.innerHTML = "Ratgeber";
-    overallDiv.appendChild(ratgeberBtn);
-
-    ratgeberBtn.addEventListener("click", () => {
-        ratgeberBlock.scrollIntoView(true);
-    })
-
-    const reiseBtn = document.createElement("button");
-    reiseBtn.setAttribute("id", "navBtn");
-    reiseBtn.innerHTML = "Reise";
-    overallDiv.appendChild(reiseBtn);
-
-    reiseBtn.addEventListener("click", () => {
-        reiseBlock.scrollIntoView(true);
-    })
-
-    const lifestyleBtn = document.createElement("button");
-    lifestyleBtn.setAttribute("id", "navBtn");
-    lifestyleBtn.innerHTML = "Lifestyle";
-    overallDiv.appendChild(lifestyleBtn);
-
-    lifestyleBtn.addEventListener("click", () => {
-        lifestyleBlock.scrollIntoView(true);
-    })
-
-    const autoBtn = document.createElement("button");
-    autoBtn.setAttribute("id", "navBtn");
-    autoBtn.innerHTML = "Auto";
-    overallDiv.appendChild(autoBtn);
-
-    autoBtn.addEventListener("click", () => {
-        autoBlock.scrollIntoView(true);
-    })
-
-    const erotikBtn = document.createElement("button");
-    erotikBtn.setAttribute("id", "navBtn");
-    erotikBtn.innerHTML = "Erotik";
-    overallDiv.appendChild(erotikBtn);
-
-    erotikBtn.addEventListener("click", () => {
-        erotikBlock.scrollIntoView(true);
     })
 }
 

@@ -31,11 +31,5 @@ document.addEventListener('keydown', async function (event) {
                 pBtnAfter.click();
             }
         }
-
-        
-        
-
-        
-       
     }
 })

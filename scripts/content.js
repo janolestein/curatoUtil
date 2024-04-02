@@ -45,16 +45,10 @@ async function addNav() {
     const newsBlock = document.querySelector("[data-flip-id='0nWJjC1t0g0M6REKpm9Z']");
     const polBlock = document.querySelector("[data-flip-id='KSlflajUrhemq1qjRWM8']");
     const showBlock = document.querySelector("[data-flip-id='JOmPnca9aI5f4egYxft2']");
-    const sportBlock = document.querySelector("[data-flip-id='yGZB9Gl8geEXsKqjFGJP']");
+    const sportBlock = document.querySelector("[data-flip-id='Wvv8FMp5BwLZzdlwg0wM']");
     const plusBlock = document.querySelector("[data-flip-id='MFfOSHTyyA5T2tPNlsOw']");
     const regioBlock = document.querySelector("[data-flip-id='mUMToRLHaEHWjERvt5Xk']");
     const geldBlock = document.querySelector("[data-flip-id='G5IRwA3ffOI71Vg0lKjo']");
-    const digitalBlock = document.querySelector("[data-flip-id='tsyaUxc96fH9Ayl8z6KR']");
-    const ratgeberBlock = document.querySelector("[data-flip-id='V4Mep0IUnsFe882wit6K']");
-    const reiseBlock = document.querySelector("[data-flip-id='GWzqwJ9gml92G4NcpgXK']");
-    const lifestyleBlock = document.querySelector("[data-flip-id='igRDom1egr3qyqC8aSF1']");
-    const autoBlock = document.querySelector("[data-flip-id='9Wzzdb8Q8vfT1MFpGzXO']");
-    const erotikBlock = document.querySelector("[data-flip-id='Ct55Lss4WGpPYiD5Ak9C']");
 
     
     

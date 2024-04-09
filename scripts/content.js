@@ -52,7 +52,7 @@ async function addNav() {
 
     
     
-    const mrec = document.querySelector("[data-flip-id='pLdXNXWK1gPPRQIL3ENd']");
+    const mrec = document.querySelector("[data-flip-id='pi66iXWJFZ3ZKdap5kMb']");
 
     console.log(header);
     console.log(newsBlock);

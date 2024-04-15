@@ -10,15 +10,15 @@
         {
           "js": ["scripts/content.js"],
           "matches": [
-            "https://curato.ep.springtools.de/bild/page/wDmWJyqHFeqhJHmeuqfN"
+            "https://editorial.one/curato/bild/page/wDmWJyqHFeqhJHmeuqfN"
           ]
         },
         {
           "js": ["scripts/shortcuts.js"],
           "matches": [
-            "https://curato.ep.springtools.de/bild/page/*"
-
+            "https://editorial.one/curato/bild/page/*"
           ]
+
         }
       ]
   }

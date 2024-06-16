@@ -19,6 +19,12 @@
             "https://editorial.one/curato/bild/page/*"
           ]
 
+        },
+        {
+          "js": ["scripts/contentBetaApp.js"],
+          "matches": [
+            "https://editorial.one/curato/bild/page/jJt31TLVzDZzInKWHyk1"
+          ]
         }
       ]
   }

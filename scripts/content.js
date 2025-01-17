@@ -72,7 +72,6 @@ async function addNav() {
     (span) => span.innerText === "geld",
   );
 
-  const mrec = document.querySelector("[data-flip-id='pi66iXWJFZ3ZKdap5kMb']");
 
   console.log(header);
   console.log(newsBlock);
@@ -87,12 +86,9 @@ async function addNav() {
   overallDiv.appendChild(topBtn);
 
   topBtn.addEventListener("click", () => {
-    if (mrec != null) {
-      mrec.scrollIntoView(false);
-    } else {
-      const scrollBtn = document.querySelector("[data-test='scrollButton']");
+
+      const scrollBtn = document.querySelector("[data-test='tab-aufmacher']");
       scrollBtn.click();
-    }
   });
 
   const plusZweierBtn = document.createElement("button");

@@ -57,7 +57,7 @@ async function addNav() {
     (span) => span.innerText === "politik",
   );
   const showBlock = Array.from(allTechnicalNames).find(
-    (span) => span.innerText === "unterhaltung",
+    (span) => span.innerText === "stars und kultur",
   );
   const sportBlock = Array.from(allTechnicalNames).find(
     (span) => span.innerText === "sport",
@@ -82,7 +82,7 @@ async function addNav() {
     if (mrec != null) {
       mrec.scrollIntoView(false);
     } else {
-      const scrollBtn = document.querySelector("[data-test='scrollButton']");
+      const scrollBtn = document.querySelector("[data-test='tab-aufmacher']");
       scrollBtn.click();
     }
   });
